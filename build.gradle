@@ -56,6 +56,15 @@ dependencies {
 
 	// Servlet API
 	implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+
+	// Redis
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+	// Bean Validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	// Servlet API
+	implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
 }
 
 tasks.named('test') {
