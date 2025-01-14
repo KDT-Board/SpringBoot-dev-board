@@ -1,5 +1,6 @@
-package com.kdt.board.user;
+package com.kdt.board.user.repository;
 
+import com.kdt.board.user.dto.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
